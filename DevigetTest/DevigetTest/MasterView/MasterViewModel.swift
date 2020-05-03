@@ -130,8 +130,6 @@ class MasterViewModel {
         let viewModels: [RowViewModel] = articles.sorted(by: { $0.entryDate > $1.entryDate }).map({
             let article = $0
             
-            print("NEW ARTICLE")
-            
             return MasterTableCellViewModel(article: article, cellPressed: { [weak self] in
                 article.readStatus.value = true
                 self?.persistence.save()

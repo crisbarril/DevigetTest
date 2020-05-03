@@ -20,12 +20,17 @@
 		1BA6F11E245EEEF800BFCC36 /* ArticlesPersistenceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6F11D245EEEF800BFCC36 /* ArticlesPersistenceProtocol.swift */; };
 		1BA6F121245EEF3600BFCC36 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6F120245EEF3600BFCC36 /* ImageDownloader.swift */; };
 		1BA6F123245EEF5A00BFCC36 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6F122245EEF5A00BFCC36 /* main.swift */; };
+		1BA6F12C245EF34500BFCC36 /* MasterViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6F125245EF34500BFCC36 /* MasterViewModelTests.swift */; };
+		1BA6F12D245EF34500BFCC36 /* MockSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6F127245EF34500BFCC36 /* MockSceneDelegate.swift */; };
+		1BA6F12E245EF34500BFCC36 /* MockAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6F128245EF34500BFCC36 /* MockAppDelegate.swift */; };
+		1BA6F12F245EF34500BFCC36 /* MockArticlesPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6F129245EF34500BFCC36 /* MockArticlesPersistence.swift */; };
+		1BA6F130245EF34500BFCC36 /* MockArticlesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6F12A245EF34500BFCC36 /* MockArticlesClient.swift */; };
+		1BA6F131245EF34500BFCC36 /* MockMasterViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA6F12B245EF34500BFCC36 /* MockMasterViewNavigation.swift */; };
 		1BEC6B60245EB49700AD861E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6B5F245EB49700AD861E /* AppDelegate.swift */; };
 		1BEC6B62245EB49700AD861E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6B61245EB49700AD861E /* SceneDelegate.swift */; };
 		1BEC6B69245EB49700AD861E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC6B67245EB49700AD861E /* Main.storyboard */; };
 		1BEC6B6B245EB49700AD861E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC6B6A245EB49700AD861E /* Assets.xcassets */; };
 		1BEC6B6E245EB49700AD861E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC6B6C245EB49700AD861E /* LaunchScreen.storyboard */; };
-		1BEC6B79245EB49700AD861E /* DevigetTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6B78245EB49700AD861E /* DevigetTestTests.swift */; };
 		1BEC6B8C245EBC8B00AD861E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6B85245EBC8B00AD861E /* Coordinator.swift */; };
 		1BEC6B8D245EBC8B00AD861E /* CellConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6B87245EBC8B00AD861E /* CellConfigurable.swift */; };
 		1BEC6B8E245EBC8B00AD861E /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6B88245EBC8B00AD861E /* TableViewModel.swift */; };
@@ -76,6 +81,13 @@
 		1BA6F11D245EEEF800BFCC36 /* ArticlesPersistenceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesPersistenceProtocol.swift; sourceTree = "<group>"; };
 		1BA6F120245EEF3600BFCC36 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
 		1BA6F122245EEF5A00BFCC36 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1BA6F124245EF34500BFCC36 /* DevigetTestTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DevigetTestTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		1BA6F125245EF34500BFCC36 /* MasterViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewModelTests.swift; sourceTree = "<group>"; };
+		1BA6F127245EF34500BFCC36 /* MockSceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockSceneDelegate.swift; sourceTree = "<group>"; };
+		1BA6F128245EF34500BFCC36 /* MockAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockAppDelegate.swift; sourceTree = "<group>"; };
+		1BA6F129245EF34500BFCC36 /* MockArticlesPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockArticlesPersistence.swift; sourceTree = "<group>"; };
+		1BA6F12A245EF34500BFCC36 /* MockArticlesClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockArticlesClient.swift; sourceTree = "<group>"; };
+		1BA6F12B245EF34500BFCC36 /* MockMasterViewNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockMasterViewNavigation.swift; sourceTree = "<group>"; };
 		1BEC6B5C245EB49700AD861E /* DevigetTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevigetTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC6B5F245EB49700AD861E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BEC6B61245EB49700AD861E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,7 +96,6 @@
 		1BEC6B6D245EB49700AD861E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BEC6B6F245EB49700AD861E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BEC6B74245EB49700AD861E /* DevigetTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DevigetTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BEC6B78245EB49700AD861E /* DevigetTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevigetTestTests.swift; sourceTree = "<group>"; };
 		1BEC6B7A245EB49700AD861E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BEC6B85245EBC8B00AD861E /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		1BEC6B87245EBC8B00AD861E /* CellConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellConfigurable.swift; sourceTree = "<group>"; };
@@ -169,6 +180,18 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
+		1BA6F126245EF34500BFCC36 /* Mock classes */ = {
+			isa = PBXGroup;
+			children = (
+				1BA6F127245EF34500BFCC36 /* MockSceneDelegate.swift */,
+				1BA6F128245EF34500BFCC36 /* MockAppDelegate.swift */,
+				1BA6F129245EF34500BFCC36 /* MockArticlesPersistence.swift */,
+				1BA6F12A245EF34500BFCC36 /* MockArticlesClient.swift */,
+				1BA6F12B245EF34500BFCC36 /* MockMasterViewNavigation.swift */,
+			);
+			path = "Mock classes";
+			sourceTree = "<group>";
+		};
 		1BEC6B53245EB49700AD861E = {
 			isa = PBXGroup;
 			children = (
@@ -211,8 +234,10 @@
 		1BEC6B77245EB49700AD861E /* DevigetTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				1BEC6B78245EB49700AD861E /* DevigetTestTests.swift */,
+				1BA6F125245EF34500BFCC36 /* MasterViewModelTests.swift */,
+				1BA6F126245EF34500BFCC36 /* Mock classes */,
 				1BEC6B7A245EB49700AD861E /* Info.plist */,
+				1BA6F124245EF34500BFCC36 /* DevigetTestTests-Bridging-Header.h */,
 			);
 			path = DevigetTestTests;
 			sourceTree = "<group>";
@@ -399,6 +424,7 @@
 					};
 					1BEC6B73245EB49700AD861E = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 						TestTargetID = 1BEC6B5B245EB49700AD861E;
 					};
 				};
@@ -493,7 +519,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEC6B79245EB49700AD861E /* DevigetTestTests.swift in Sources */,
+				1BA6F12E245EF34500BFCC36 /* MockAppDelegate.swift in Sources */,
+				1BA6F130245EF34500BFCC36 /* MockArticlesClient.swift in Sources */,
+				1BA6F131245EF34500BFCC36 /* MockMasterViewNavigation.swift in Sources */,
+				1BA6F12C245EF34500BFCC36 /* MasterViewModelTests.swift in Sources */,
+				1BA6F12F245EF34500BFCC36 /* MockArticlesPersistence.swift in Sources */,
+				1BA6F12D245EF34500BFCC36 /* MockSceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -680,6 +711,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DevigetTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
@@ -690,6 +722,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CristianBarril.DevigetTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DevigetTestTests/DevigetTestTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevigetTest.app/DevigetTest";
@@ -701,6 +735,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DevigetTestTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
@@ -711,6 +746,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = CristianBarril.DevigetTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DevigetTestTests/DevigetTestTests-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DevigetTest.app/DevigetTest";
