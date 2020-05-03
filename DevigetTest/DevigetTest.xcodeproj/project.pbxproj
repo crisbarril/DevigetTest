@@ -39,6 +39,7 @@
 		1BEC6BF8245EC9FE00AD861E /* NetworkClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6BF4245EC9FE00AD861E /* NetworkClientProtocol.swift */; };
 		1BEC6BF9245EC9FE00AD861E /* RedditResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6BF5245EC9FE00AD861E /* RedditResponse.swift */; };
 		1BEC6BFA245EC9FE00AD861E /* RedditRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6BF6245EC9FE00AD861E /* RedditRequest.swift */; };
+		1BEC6BFD245ED9C500AD861E /* ArticlesPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC6BFC245ED9C500AD861E /* ArticlesPersistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		1BEC6BF4245EC9FE00AD861E /* NetworkClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClientProtocol.swift; sourceTree = "<group>"; };
 		1BEC6BF5245EC9FE00AD861E /* RedditResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditResponse.swift; sourceTree = "<group>"; };
 		1BEC6BF6245EC9FE00AD861E /* RedditRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditRequest.swift; sourceTree = "<group>"; };
+		1BEC6BFC245ED9C500AD861E /* ArticlesPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticlesPersistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 		1BEC6BB4245EBD0600AD861E /* Persistence */ = {
 			isa = PBXGroup;
 			children = (
+				1BEC6BFB245ED9C500AD861E /* ArticlesPersistence */,
 				1BEC6BB7245EBD0600AD861E /* Service */,
 			);
 			path = Persistence;
@@ -269,6 +272,14 @@
 				1BEC6BF6245EC9FE00AD861E /* RedditRequest.swift */,
 			);
 			path = Client;
+			sourceTree = "<group>";
+		};
+		1BEC6BFB245ED9C500AD861E /* ArticlesPersistence */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC6BFC245ED9C500AD861E /* ArticlesPersistence.swift */,
+			);
+			path = ArticlesPersistence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +387,7 @@
 				1BEC6BBD245EBD0600AD861E /* NetworkLogger.swift in Sources */,
 				1BEC6BF9245EC9FE00AD861E /* RedditResponse.swift in Sources */,
 				1BEC6BA5245EBCAC00AD861E /* String.swift in Sources */,
+				1BEC6BFD245ED9C500AD861E /* ArticlesPersistence.swift in Sources */,
 				1BEC6BC4245EBD0600AD861E /* CRUD.swift in Sources */,
 				1BEC6BA1245EBCAC00AD861E /* TableViewCell.swift in Sources */,
 				1BEC6B60245EB49700AD861E /* AppDelegate.swift in Sources */,
