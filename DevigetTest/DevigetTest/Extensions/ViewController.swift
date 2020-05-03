@@ -10,18 +10,11 @@ import UIKit
 
 extension UIViewController {
     
-    // MARK: UIAlertController
-    private func showAlert(title: String, message: String, actions: [UIAlertAction]) {
-        let alertController = UIAlertController.init(title: title, message: message, preferredStyle: .alert)
-        for action in actions {
-            alertController.addAction(action)
-        }
-        
-        DispatchQueue.main.async {
-            self.present(alertController, animated: true, completion: nil)
-        }        
+    var isHorizontallyRegular: Bool {
+        return traitCollection.horizontalSizeClass == .regular
     }
     
+    // MARK: UIAlertController
     func showInfoAlert(title: String, message: String, openSetting: Bool = false) {
         var actions = [UIAlertAction]()
         
@@ -45,5 +38,16 @@ extension UIViewController {
         }
         
         showAlert(title: title, message: message, actions: actions)
+    }
+    
+    private func showAlert(title: String, message: String, actions: [UIAlertAction]) {
+        let alertController = UIAlertController.init(title: title, message: message, preferredStyle: .alert)
+        for action in actions {
+            alertController.addAction(action)
+        }
+        
+        DispatchQueue.main.async {
+            self.present(alertController, animated: true, completion: nil)
+        }
     }
 }

@@ -28,25 +28,23 @@ class ArticlesPersistence {
 }
 
 // MARK: CRUD methods
-extension ArticlesPersistence: CRUD {
-    typealias T = Article
-        
-    func create(_ object: T) {
+extension ArticlesPersistence: ArticlesPersistenceProtocol {
+    func create(_ object: Article) {
         articles.insert(object)
     }
     
-    func read(id: String) -> T? {
+    func read(id: String) -> Article? {
         return articles.first(where: { $0.id == id })
     }
     
-    func update(_ object: T) {
+    func update(_ object: Article) {
         if delete(object) {
             create(object)
         }
     }
     
     @discardableResult
-    func delete(_ object: T) -> Bool {
+    func delete(_ object: Article) -> Bool {
         let profilesCount = articles.count
         articles = articles.filter({ $0 != object })
         return profilesCount > articles.count
